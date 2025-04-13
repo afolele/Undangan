@@ -11,11 +11,11 @@ export const welcome = () => {
     const [iconButton] = audioButton.children;
 
     const generateFigureContent = (bride) => {
-        const {L: {name: brideLName}, P: {name: bridePName}, couple: coupleImage} = bride;
+        const {L: {name: Jaka}, P: {name: Dian}, couple: coupleImage} = bride;
         return `
             <img src="${coupleImage}" alt="couple animation">
             <figcaption>
-                ${brideLName.split('Jaka')[0]} & ${bridePName.split('Dian')[0]}
+                ${brideLName.split(' ')[0]} & ${bridePName.split(' ')[0]}
             </figcaption>`;
     };
 
