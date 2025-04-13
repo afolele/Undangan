@@ -1,4 +1,5 @@
 export const data = {
+    
     bride: {
         L: {
             id: 1,
